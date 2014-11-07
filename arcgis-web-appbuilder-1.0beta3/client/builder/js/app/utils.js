@@ -1,0 +1,3 @@
+//>>built
+define(["dojo/cookie"],function(g){var a={},e=g("appbuilder_xt");a.getAppPathById=function(b){return"stemapp"===b?path+"stemapp/":e?path+"apps/"+b+"/":path+"stemapp/index.html?id\x3d"+b+"/"};a.getAppWidgetPath=function(b,f){return"stemapp"===b||!e?path+"stemapp/widgets/"+f+"/":a.getAppPathById(b)+"widgets/"+f+"/"};a.getAppWidgetsPackageLoacation=function(b){return e?a.getAppPathById(b)+"widgets":path+"stemapp/widgets"};a.getAppThemesPackageLoacation=function(b){return e?a.getAppPathById(b)+"themes":
+path+"stemapp/themes"};a.appendParamsToAppPath=function(b,a){var d=b,c;for(c in a)a.hasOwnProperty(c)&&(d=0>d.indexOf("?")?d+"?"+c+"\x3d"+a[c]:d+"\x26"+c+"\x3d"+a[c]);return d};return a});

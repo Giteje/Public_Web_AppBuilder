@@ -1,0 +1,10 @@
+.jimu-main-bgcolor{
+  background-color: #3498db;
+}
+
+.TabTheme.simpleblue .jimu-widget-header .subtitle{
+  color: white;
+}
+.TabTheme.simpleblue .jimu-widget-header .links .link{
+  color: white; 
+}
