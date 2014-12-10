@@ -1,8 +1,0 @@
-{
-	"name": "builder",
-	"version": "1.0.0",
-	"main": "main",
-	"description": "a configurable app core",
-	"bugs": "",
-	"dojoBuild": "package.js"
-}
