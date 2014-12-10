@@ -1,0 +1,32 @@
+<div>
+	<div class="map-info-section">
+		<div class="map-info map-selected-section" data-dojo-attach-point="mapSelectedSection" style="display:block;">
+			<div class="map-selected-meta-data">
+				<div class="map-selected-img" data-dojo-attach-point="divMapSelectedImg" data-dojo-attach-event="click:_showMapSelector">
+				</div>
+				<div class="detail-info">
+					<div style="overflow:hidden;">
+						<div class="web-map-icon" style="float:left;"></div>
+						<div style="float:right;width:140px;">
+							<span style="float:left;margin-left:5px;">Web Map by</span>
+							<a data-dojo-attach-point="owner" href="#" target="_blank" style="display:block;color:#15a4fa;text-decoration:none;width:100%;white-space:nowrap;overflow:hidden;text-overflow:ellipsis;"></a>
+						</div>
+					</div>
+					<div style="margin-top:5px;">
+						<span>${nls.lastModified}:</span>
+						<div data-dojo-attach-point="lastModified" style="white-space:nowrap;overflow:hidden;text-overflow:ellipsis;"></div>
+					</div>
+					<div style="margin-top:5px;">
+						<a data-dojo-attach-point="webMapDetails" href="#" target="_blank" style="text-decoration:none;color:#15a4fa;">${nls.moreDetails}...</a>
+					</div>
+					<div nowrap class="map-config-btn choose-map-btn" title="${nls.changeMap}" data-dojo-attach-event="click:_showMapSelector">${nls.changeMap}</div>
+				</div>
+			</div>
+			<div class="map-info-title" data-dojo-attach-point="mapTitle"></div>
+			<p class="snippet" data-dojo-attach-point="snippet"></p>
+			<p class="statement">${nls.statement}</p>
+			<span class="map-config-btn" data-dojo-attach-point="btnInitialExtent" style="margin-top:15px;">${nls.setInitialExtent}</span>
+			<span class="map-config-btn" data-dojo-attach-point="restore"  style="margin-top:15px;"data-dojo-attach-event="onClick:_restoreToDefaultWebMapExtent">${nls.restoreInitialExtent}</span>
+		</div>
+	</div>
+</div>

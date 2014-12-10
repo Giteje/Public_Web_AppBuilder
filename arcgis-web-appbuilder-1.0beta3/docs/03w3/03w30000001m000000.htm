@@ -1,0 +1,25 @@
+<html lang="en" xml:lang="en"><head>
+<META http-equiv="Content-Type" content="text/html">
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8"><META name="description" content="Communication between widgets As the requirement of reading or sending data between widgets is common, the BaseWidget class supports this programming model.In the constructor of the BaseWidget class, it subscribes the publishData, dataFetched, and noData events. Meanwhile, the BaseWidget class provides the publishData and fetchData methods.If you want the widget to publish data, call the publishData method. If you want the widget to receive data from another widget, call the fetchData method, and write code to override the onReceiveData and onNoData methods to read data."><meta name="content-language" content="en"><link href="rsrc/htmlhelp.css" rel="stylesheet" type="text/css"><title>Web AppBuilder for ArcGIS | Help - 
+Communication between widgets
+</title>
+                <script type="text/javascript" language="JavaScript">
+                    var pathL  = self.location.pathname.split ("/");
+                    var fname = pathL[pathL.length-1];
+                    var i = fname.lastIndexOf (".htm");
+                    if (i>=0) {
+                    fname = fname.substring (0, i)
+                    } else {
+                    //??
+                    }
+                    if (self.location.hash) {
+				    		      fname = fname + self.location.hash;
+						        }
+                    self.location.replace ("../index.html#//" + fname);
+                </script>
+                </head><!--Publication GUID: [GUID-E7D1C130-8F87-4109-8D61-E73A46083F52]--><!--Topic GUID: [GUID-2FBDF680-A4BC-4273-BB81-13A9CCDA06C9]--><body><div id="content"><div class="header"><h1>
+Communication between widgets
+</h1><div id="breadcrumb"></div></div>
+<p id="GUID-30CCC90B-011F-4645-ABD1-7204CC503AE1">As the requirement of reading or sending data between widgets is common, the BaseWidget class supports this programming model.</p><p id="GUID-EFAB4FDD-3592-4DB6-A474-E2A4467F9064">In the constructor of the BaseWidget class, it subscribes the publishData, dataFetched, and noData events. Meanwhile, the BaseWidget class provides the publishData and fetchData methods.</p><p id="GUID-EB1732B5-12EB-4ED4-A9FD-6B3CFC5673BB">If you want the widget to publish data, call the publishData method. If you want the widget to receive data from another widget, call the fetchData method, and write code to override the onReceiveData and onNoData methods to read data.</p>
+
+<div class="footer"> Copyright © 1995-2014 Esri. All rights reserved. </div></div></body></html>
