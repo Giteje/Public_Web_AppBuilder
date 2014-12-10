@@ -1,0 +1,274 @@
+{
+  "themes/FoldableTheme/main": {
+    "name": "FoldableTheme",
+    "panels": [
+      {
+        "name": "FoldablePanel",
+        "description": "This is foldable panel"
+      },
+      {
+        "name": "SimplePanel",
+        "description": "this is simple panel"
+      }
+    ],
+    "styles": [
+      {
+        "name": "default",
+        "description": "this is default style",
+        "styleColor": "#596679"
+      },
+      {
+        "name": "black",
+        "description": "this is black style",
+        "styleColor": "#000000"
+      },
+      {
+        "name": "green",
+        "description": "this is green style",
+        "styleColor": "#2aaa8a"
+      },
+      {
+        "name": "cyan",
+        "description": "this is cyan style",
+        "styleColor": "#b1d3d4"
+      }
+    ],
+    "layouts": [
+      {
+        "name": "default",
+        "description": "this is default layout"
+      },
+      {
+        "name": "layout1",
+        "description": "this is layout1"
+      }
+    ],
+    "widgets": [
+      {
+        "name": "HeaderController",
+        "description": "this is theme widget controller"
+      }
+    ],
+    "version": "0.0.1",
+    "author": "Esri R&D Center Beijing",
+    "description": "",
+    "copyright": "",
+    "license": "http://www.apache.org/licenses/LICENSE-2.0",
+    "location": "d:\\jenkins_home\\jobs\\appbuilder-xt-build\\workspace\\client\\stemapp\\themes\\FoldableTheme",
+    "category": "theme",
+    "i18nLabels": {
+      "defaultLabel": "Foldable Theme",
+      "cs": "Rozkládací motiv",
+      "da": "Foldbart tema",
+      "de": "Ausblendbares Thema",
+      "es": "Tema plegable",
+      "et": "Kokkuvolditav kujundus",
+      "fi": "Taitettava teema",
+      "fr": "Thème pliable",
+      "it": "Tema avviluppabile",
+      "ja": "折りたたみ可能なテーマ",
+      "ko": "접을 수 있는 테마",
+      "lt": "Suglaudinama tema",
+      "lv": "Salokāms dizains",
+      "nb": "Temaet Foldbar",
+      "nl": "Inklapbaar thema",
+      "pl": "Motyw Składane",
+      "pt-br": "Tema Dobrável",
+      "pt-pt": "ã_Foldable Theme_Ç",
+      "ro": "Temă cu pliere",
+      "ru": "Сворачиваемая тема",
+      "sv": "Vikbart tema",
+      "th": "ก้_Foldable Theme_ษฺ",
+      "tr": "Katlanabilir Tema",
+      "zh-cn": "折叠式主题"
+    },
+    "i18nLabels_layout_default": {
+      "defaultLabel": "Default Layout",
+      "cs": "Výchozí rozvržení",
+      "da": "Standardlayout",
+      "de": "Standard-Layout",
+      "es": "Diseño predeterminado",
+      "et": "Vaikimisi paigutus",
+      "fi": "Oletuslayout",
+      "fr": "Mise en page par défaut",
+      "it": "Layout predefinito",
+      "ja": "デフォルトのレイアウト",
+      "ko": "기본 레이아웃",
+      "lt": "Numatytasis maketas",
+      "lv": "Noklusējuma izkārtojums",
+      "nb": "Standard oppsett",
+      "nl": "Standaard lay-out",
+      "pl": "Układ domyślny",
+      "pt-br": "Layout Padrão",
+      "pt-pt": "ã_Default Layout_Ç",
+      "ro": "Configuraţie implicită",
+      "ru": "Компоновка по умолчанию",
+      "sv": "Standardlayout",
+      "th": "ก้_Default Layout_ษฺ",
+      "tr": "Varsayılan Düzen",
+      "zh-cn": "默认布局"
+    },
+    "i18nLabels_layout_layout1": {
+      "defaultLabel": "Layout 1",
+      "cs": "Rozvržení 1",
+      "da": "Layout 1",
+      "de": "Layout 1",
+      "es": "Diseño 1",
+      "et": "Paigutus 1",
+      "fi": "Asettelu 1",
+      "fr": "Mise en page 1",
+      "it": "Layout 1",
+      "ja": "レイアウト 1",
+      "ko": "레이아웃 1",
+      "lt": "1 maketas",
+      "lv": "1. izkārtojums",
+      "nb": "Oppsett 1",
+      "nl": "Lay-out 1",
+      "pl": "Układ 1",
+      "pt-br": "Layout 1",
+      "pt-pt": "ã_Layout 1_Ç",
+      "ro": "Aspectul 1",
+      "ru": "Компоновка 1",
+      "sv": "Layout 1",
+      "th": "ก้_Layout 1_ษฺ",
+      "tr": "Düzen 1",
+      "zh-cn": "布局 1"
+    },
+    "i18nLabels_style_default": {},
+    "i18nLabels_style_black": {},
+    "i18nLabels_style_green": {},
+    "i18nLabels_style_cyan": {}
+  },
+  "themes/TabTheme/main": {
+    "name": "TabTheme",
+    "panels": [
+      {
+        "name": "TabPanel",
+        "description": "abc..."
+      }
+    ],
+    "styles": [
+      {
+        "name": "default",
+        "description": "this is default style",
+        "styleColor": "#292929"
+      },
+      {
+        "name": "simpleblue",
+        "description": "this is default style",
+        "styleColor": "#3498db"
+      }
+    ],
+    "layouts": [
+      {
+        "name": "default",
+        "description": "this is default layout"
+      },
+      {
+        "name": "layout1",
+        "description": "this is layout1"
+      }
+    ],
+    "widgets": [
+      {
+        "name": "SidebarController",
+        "description": "this is theme widget controller"
+      },
+      {
+        "name": "Header",
+        "description": "this is theme header widget"
+      },
+      {
+        "name": "Footer",
+        "description": "this is theme footer widget"
+      }
+    ],
+    "version": "0.0.1",
+    "author": "Esri R&D Center Beijing",
+    "description": "",
+    "copyright": "",
+    "license": "http://www.apache.org/licenses/LICENSE-2.0",
+    "location": "d:\\jenkins_home\\jobs\\appbuilder-xt-build\\workspace\\client\\stemapp\\themes\\TabTheme",
+    "category": "theme",
+    "i18nLabels": {
+      "defaultLabel": "Tab Theme",
+      "cs": "Rozvržení záložek",
+      "da": "Tabulatortema",
+      "de": "Registerkarten Design",
+      "es": "Tema de la pestaña",
+      "et": "Vahekaardi kujundus",
+      "fi": "Välilehtiteema",
+      "fr": "Thème par onglet",
+      "it": "Tema a schede",
+      "ja": "タブ テーマ",
+      "ko": "탭 테마",
+      "lt": "Skirtuko tema",
+      "lv": "Cilnes dizains",
+      "nb": "Temaet Fane",
+      "nl": "Tabbladthema",
+      "pl": "Układ Karty",
+      "pt-br": "Tema da Guia",
+      "pt-pt": "ã_Tab Theme_Ç",
+      "ro": "Temă cu file",
+      "ru": "Тема с закладками",
+      "sv": "Fliktema",
+      "th": "ก้_Tab Theme_ษฺ",
+      "tr": "Sekme Teması",
+      "zh-cn": "选项卡主题"
+    },
+    "i18nLabels_layout_default": {
+      "defaultLabel": "Default Layout",
+      "cs": "Výchozí rozvržení",
+      "da": "Standardlayout",
+      "de": "Standard-Layout",
+      "es": "Diseño predeterminado",
+      "et": "Vaikimisi paigutus",
+      "fi": "Oletuslayout",
+      "fr": "Mise en page par défaut",
+      "it": "Layout predefinito",
+      "ja": "デフォルトのレイアウト",
+      "ko": "기본 레이아웃",
+      "lt": "Numatytasis maketas",
+      "lv": "Noklusējuma izkārtojums",
+      "nb": "Standard oppsett",
+      "nl": "Standaard lay-out",
+      "pl": "Układ domyślny",
+      "pt-br": "Layout Padrão",
+      "pt-pt": "ã_Default Layout_Ç",
+      "ro": "Configuraţie implicită",
+      "ru": "Компоновка по умолчанию",
+      "sv": "Standardlayout",
+      "th": "ก้_Default Layout_ษฺ",
+      "tr": "Varsayılan Düzen",
+      "zh-cn": "默认布局"
+    },
+    "i18nLabels_layout_layout1": {
+      "defaultLabel": "Layout 1",
+      "cs": "Rozvržení 1",
+      "da": "Layout 1",
+      "de": "Layout 1",
+      "es": "Diseño 1",
+      "et": "Paigutus 1",
+      "fi": "Asettelu 1",
+      "fr": "Mise en page 1",
+      "it": "Layout 1",
+      "ja": "レイアウト 1",
+      "ko": "레이아웃 1",
+      "lt": "1 maketas",
+      "lv": "1. izkārtojums",
+      "nb": "Oppsett 1",
+      "nl": "Lay-out 1",
+      "pl": "Układ 1",
+      "pt-br": "Layout 1",
+      "pt-pt": "ã_Layout 1_Ç",
+      "ro": "Aspectul 1",
+      "ru": "Компоновка 1",
+      "sv": "Layout 1",
+      "th": "ก้_Layout 1_ษฺ",
+      "tr": "Düzen 1",
+      "zh-cn": "布局 1"
+    },
+    "i18nLabels_style_default": {},
+    "i18nLabels_style_simpleblue": {}
+  }
+}

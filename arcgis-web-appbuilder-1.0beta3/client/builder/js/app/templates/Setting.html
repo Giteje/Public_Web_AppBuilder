@@ -1,0 +1,128 @@
+<div style="position:relative;margin-left:20px;margin-right:20px;">
+  <table class="layout-table">
+    <tbody>
+      <tr >
+        <td colspan=3>
+          <table class="portalurl-table">
+            <tbody>
+              <tr>
+                <td class="first-td">${nls.defaultPortalUrl}</td>
+                <td class="second-td">
+                  <input class="setting-input" type="text" placeholder="http(s)://www.arcgis.com/ or http(s)://<portal_server>/<instance_name>/" value="" data-dojo-attach-point="portalUrl" style="width:520px;" />
+                  <span class="help-icon" title="${nls.helpText.defaultPortalUrl}"></span>
+                </td>
+                <td class="third-td">
+                  <a data-dojo-attach-point="btnLoadHelperServices" class="jimu-btn">${nls.loadHelperServices}</a>
+                </td>
+              </tr>
+            </tbody>
+          </table>
+        </td>
+      </tr>
+      <tr >
+        <td colspan=3>
+          <table class="service-table">
+            <tbody>
+              <tr>
+                <td class="first-td">*${nls.geometryServiceUrl}</td>
+                <td class="second-td">
+                  <input class="setting-input" type="text" placeholder="http://" value="" data-dojo-type="jimu/dijit/ServiceURLInput" data-dojo-attach-point="geoServiceUrl" />
+                </td>
+                <td class="third-td">
+                  <span class="help-icon" title="${nls.helpText.geometryServiceUrl}"></span>
+                </td>
+              </tr>
+              <tr>
+                <td class="first-td">${nls.geocodeServiceUrl}</td>
+                <td class="second-td">
+                  <input class="setting-input" type="text" placeholder="http://" value="" data-dojo-type="jimu/dijit/ServiceURLInput" data-dojo-attach-point="geocodeServiceUrl" data-dojo-props="verify: false" />
+                </td>
+                <td class="third-td">
+                  <span class="help-icon" title="${nls.helpText.geocodeServiceUrl}"></span>
+                </td>
+              </tr>
+              <tr>
+                <td class="first-td">${nls.routeServiceUrl}</td>
+                <td class="second-td">
+                  <input class="setting-input" type="text" placeholder="http://" value="" data-dojo-type="jimu/dijit/ServiceURLInput" data-dojo-attach-point="routeServiceUrl" data-dojo-props="verify: false" />
+                </td>
+                <td class="third-td">
+                  <span class="help-icon" title="${nls.helpText.routeServiceUrl}"></span>
+                </td>
+              </tr>      
+              <tr>
+                <td class="first-td">${nls.printTaskUrl}</td>
+                <td class="second-td">
+                  <input class="setting-input" type="text" placeholder="http://" value="" data-dojo-type="jimu/dijit/ServiceURLInput" data-dojo-attach-point="printTaskUrl" data-dojo-props="verify: false" />
+                </td>
+                <td class="third-td">
+                  <span class="help-icon" title="${nls.helpText.printTaskUrl}"></span>
+                </td>
+              </tr>  
+            </tbody>
+          </table>
+        </td>
+      </tr>
+      <tr>
+        <td class="first-td">${nls.httpProxyUrl}</td>
+        <td class="second-td">
+          <input class="setting-input" type="text" placeholder="http://" value="" data-dojo-attach-point="proxyUrl" />
+        </td>
+        <td class="third-td">
+          <span class="help-icon" title="${nls.helpText.httpProxyUrl}"></span>
+        </td>
+      </tr>
+      <tr>
+        <td class="first-td">${nls.locale}</td>
+        <td class="second-td">
+          <select data-dojo-attach-point="localeSelect" data-dojo-type="dijit/form/Select" style="width:300px;height:30px;">
+            <option value='en-us'>English</option>
+            <option value='zh-cn'>中文</option>
+          </select>
+          <span class="help-icon" title="${nls.helpText.locale}"></span>
+        </td>
+      </tr>
+      <tr class="advanced-setting-hide">
+        <td class="first-td">${nls.bingMapKey}</td>
+        <td class="second-td">
+          <input class="setting-input" type="text" value="" data-dojo-attach-point="bing" />
+        </td>
+        <td class="third-td">
+          <span class="help-icon" title="${nls.helpText.bingMapKey}"></span>
+        </td>
+      </tr>
+      <tr class="advanced-setting-hide">
+        <td class="first-td">${nls.appId}</td>
+        <td class="second-td">
+          <input class="setting-input" type="text" value="" data-dojo-attach-point="appId" />
+        </td>
+        <td class="third-td">
+          <span class="help-icon" title="${nls.helpText.appId}"></span>
+        </td>
+      </tr>
+      <tr class="advanced-setting-hide">
+        <td class="first-td">${nls.themeRepo}</td>
+        <td class="second-td">
+          <input class="setting-input" type="text" value="" data-dojo-attach-point="themeRepo" />
+        </td>
+        <td class="third-td">
+          <span class="help-icon" title="${nls.helpText.themeRepo}"></span>
+        </td>
+      </tr>
+      <tr class="advanced-setting-hide">
+        <td class="first-td">${nls.widgetRepo}</td>
+        <td class="second-td">
+          <input class="setting-input" type="text" value="" data-dojo-attach-point="widgetRepo" />
+        </td>
+        <td class="third-td">
+          <span class="help-icon" title="${nls.helpText.widgetRepo}"></span>
+        </td>
+      </tr>
+      <tr>
+        <td colspan=2>
+          <input class="advanced-settings" type="button" data-dojo-attach-point="advance" data-dojo-attach-event="onclick:_onAdvancedClick" />
+        </td>
+      </tr>
+    </tbody>
+  </table>
+</div>

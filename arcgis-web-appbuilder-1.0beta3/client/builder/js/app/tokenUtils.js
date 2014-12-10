@@ -1,0 +1,2 @@
+//>>built
+define(["jimu/BaseTokenUtils","dojo/topic"],function(c,b){var a=new c;a.declaredClass="builder.TokenUtils";a.isRightWindowScope=function(){return this.isInBuilderWindow()};a.tryPublishUserSignInToExternal=function(a){this.isRightWindowScope()&&b.publish("builderUserSignIn",a)};a.tryPublishUserSignOutToExternal=function(a){this.isRightWindowScope()&&b.publish("builderUserSignOut",a)};a.startup();return a});

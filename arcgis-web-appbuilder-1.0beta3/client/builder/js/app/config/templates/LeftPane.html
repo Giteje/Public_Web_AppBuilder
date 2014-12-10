@@ -1,0 +1,61 @@
+<div class="left-pane">
+  <div class="content" data-dojo-attach-point="content">
+    <div class="config-section" data-dojo-attach-point="configSection">
+      <div class="tabs" data-dojo-attach-point="tabsNode">
+        <div data-dojo-attach-point="appPaneNode"></div>
+        <div data-dojo-attach-point="mapPaneNode"></div>
+        <div data-dojo-attach-point="widgetPaneNode"></div>
+        <div data-dojo-attach-point="attributePaneNode"></div>
+      </div>
+    </div>
+    <div class="preview-section" data-dojo-attach-point="previewSection" style="display:none;">
+      <div class="preview-header">
+        <div class="header-item size-section">
+          <div>${nls.width}</div>
+          <input type="text" value="1024" data-dojo-attach-point="customWidth" />
+          <div class="Pixel"> Px </div>
+          <div style="margin-left:20px;">${nls.height}</div>
+          <input type="text" value="768"  data-dojo-attach-point="customHeight" />
+          <div class="Pixel"> Px </div>
+        </div>
+      </div>
+      <div class="preview-body">
+        <!--div class="operation-tip">${nls.selectDevice}</div-->
+        <div class="preview-items-section">
+          <table cellspacing="17">
+            <tbody data-dojo-attach-point="previewTbody">
+              <!-- <tr>
+                <td>
+                  <div class="preview-item">
+                    <div class="preview-item-bg">
+                      <div class="preview-item-thumbnail"></div>
+                      <div class="preview-selected-icon"></div>
+                    </div>
+                    <span class="preview-item-title">iPhone5/5S</span>
+                  </div>
+                </td>
+              </tr> -->
+            </tbody>
+          </table>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="footer">
+    <div class="footer-button first-footer-button" data-dojo-attach-point="btnHomePage"><!--${nls.share}--></div>
+    <div class = "seprate"></div>
+    <div class="footer-button second-footer-button preview-button" data-dojo-attach-point="btnPreview">${nls.previewMore}</div>
+    <div class="footer-button second-footer-button config-button" data-dojo-attach-point="btnConfig">${nls.back2Configure}</div>
+    <div class = "seprate"></div>
+    <div class="footer-button third-footer-button" data-dojo-attach-point="btnSave">${nls.saved}</div>
+    <div class="forth-footer-button-arrow" >
+      <div class="foot-menu">
+          <div nowrap data-dojo-attach-event="click:_onSave">${nls.save}</div>
+          <div nowrap data-dojo-attach-event="click:_onSaveAs">${nls.saveAs}</div>
+      </div>
+    </div>      
+
+    
+  </div>
+  <div class="loading-cover" data-dojo-attach-point="coverNode"></div>
+</div>

@@ -1,0 +1,9 @@
+{
+  "themes": [
+    "FoldableTheme",
+    "TabTheme"
+  ],
+  "_buildInfo": {
+    "widgetManifestsMerged": true
+  }
+}

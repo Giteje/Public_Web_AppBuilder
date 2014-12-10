@@ -1,0 +1,52 @@
+<html lang="en" xml:lang="en"><head>
+<META http-equiv="Content-Type" content="text/html">
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8"><META name="description" content="Use other JavaScript libraries When a third-party library is used during development, add the library in the init.js file, which is under the stemapp folder. If a library is shared by many widgets, place the library under the root folder of the app, and add the library link into the resources array.resources = resources.concat([ {type: 'css', url: apiUrl + 'js/dojo/dojo/resources/dojo.css'}, {type: 'css', url: apiUrl + 'js/dojo/dijit/themes/claro/claro.css'}, {type: 'css', url: apiUrl + 'js/esri/css/esri.css'}, {type: 'js', url: apiUrl}, {type: 'css', url: path + 'jimu.js/css/jimu.css'} ]); If you want to load the library in a widget only, use yepnope to load it. For more information, see"><meta name="content-language" content="en"><link href="rsrc/htmlhelp.css" rel="stylesheet" type="text/css"><title>Web AppBuilder for ArcGIS | Help - 
+Use other JavaScript  libraries</title>
+                <script type="text/javascript" language="JavaScript">
+                    var pathL  = self.location.pathname.split ("/");
+                    var fname = pathL[pathL.length-1];
+                    var i = fname.lastIndexOf (".htm");
+                    if (i>=0) {
+                    fname = fname.substring (0, i)
+                    } else {
+                    //??
+                    }
+                    if (self.location.hash) {
+				    		      fname = fname + self.location.hash;
+						        }
+                    self.location.replace ("../index.html#//" + fname);
+                </script>
+                </head><!--Publication GUID: [GUID-E7D1C130-8F87-4109-8D61-E73A46083F52]--><!--Topic GUID: [GUID-5B99732B-2817-4204-A959-D268EA6E8EB0]--><body><div id="content"><div class="header"><h1>
+Use other JavaScript  libraries</h1><div id="breadcrumb"></div></div>
+<p id="GUID-92C5E626-94DC-4C5D-A72D-FB247029CB76">When a third-party library is used  during development, add  the library in the init.js file, which is under the stemapp folder.</p><p id="GUID-9D17A724-B1D8-490C-A275-C8FCFB44CDCC">
+
+ If a library is shared by many widgets, place the library under the root folder of the app, and add the library link into the resources array.</p><div class="codeblock" purpose="codeblock"><div class="codeblockdesc" purpose="codeblockdesc"></div><div class="highlight"><pre><code>resources = resources.concat([
+  {type: &#39;css&#39;, url: apiUrl + &#39;js/dojo/dojo/resources/dojo.css&#39;},
+  {type: &#39;css&#39;, url: apiUrl + &#39;js/dojo/dijit/themes/claro/claro.css&#39;},
+  {type: &#39;css&#39;, url: apiUrl + &#39;js/esri/css/esri.css&#39;},
+  {type: &#39;js&#39;, url: apiUrl},
+  {type: &#39;css&#39;, url: path + &#39;jimu.js/css/jimu.css&#39;}
+]);
+</code></pre></div>
+</div><p id="GUID-F685D14C-E238-4100-8DD7-65A212A60011"> If you want to load the library in a widget only,   use yepnope to load it.  For more information, see <a target="_blank" class="xref" rel="http://yepnopejs.com/" href="http://yepnopejs.com/">http://yepnopejs.com/</a>. </p><p id="GUID-6E6CF6F6-C656-454B-A78C-14DBEFA5F443"> If the library is an AMD package, you can configure the package at dojoConfig.init.js.</p><div class="codeblock" purpose="codeblock"><div class="codeblockdesc" purpose="codeblockdesc"></div><div class="highlight"><pre><code>dojoConfig = {
+    parseOnLoad: false,
+    async: true,
+    tlmSiblingOfDojo: false,
+
+    has: {
+      &#39;extend-esri&#39;: 1
+    },
+    packages : [{
+      name : &quot;widgets&quot;,
+      location : path + &quot;widgets&quot;
+    }, {
+      name : &quot;jimu&quot;,
+      location : path + &quot;jimu.js&quot;
+    }, {
+      name : &quot;themes&quot;,
+      location : path + &quot;themes&quot;
+    }]
+  }
+</code></pre></div>
+</div>
+<div class="footer"> Copyright © 1995-2014 Esri. All rights reserved. </div></div></body></html>

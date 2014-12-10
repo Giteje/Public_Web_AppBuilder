@@ -1,0 +1,34 @@
+<html lang="en" xml:lang="en"><head>
+<META http-equiv="Content-Type" content="text/html">
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8"><META name="description" content="This widget presents a gallery of base maps."><meta name="content-language" content="en"><link href="rsrc/htmlhelp.css" rel="stylesheet" type="text/css"><title>Web AppBuilder for ArcGIS | Help - Basemap Gallery widget
+</title>
+                <script type="text/javascript" language="JavaScript">
+                    var pathL  = self.location.pathname.split ("/");
+                    var fname = pathL[pathL.length-1];
+                    var i = fname.lastIndexOf (".htm");
+                    if (i>=0) {
+                    fname = fname.substring (0, i)
+                    } else {
+                    //??
+                    }
+                    if (self.location.hash) {
+				    		      fname = fname + self.location.hash;
+						        }
+                    self.location.replace ("../index.html#//" + fname);
+                </script>
+                </head><!--Publication GUID: [GUID-E7D1C130-8F87-4109-8D61-E73A46083F52]--><!--Topic GUID: [GUID-087967BF-F4AD-442A-A653-0C9DD0DBEB63]--><body><div id="content"><div class="header"><h1>Basemap Gallery widget
+</h1><div id="breadcrumb"></div></div>
+<div class="section1" id="GUID-427FD8E9-7F89-4FDD-981C-E39B8F23C663" purpose="section1"><h2></h2><p id="GUID-F0284F26-DF6F-4C0A-80C9-C5D7628BE2A6">
+ This widget presents a gallery of basemaps and allows you to select one from the gallery as the application's basemap. 
+The basemaps can be user-defined or from your ArcGIS organization.  However, all basemaps added to the gallery must be in the same projection. If you are displaying basemaps from your organization, additional custom basemaps must be in the Web
+Mercator projection (wkid: 102100, 102113, and 3857).</p><p id="GUID-AE71B646-163E-4987-BE94-6531CE8C6570">Unlike the theme widgets whose icons cannot be changed, this widget is part of the widgets controlled by Header Controller and its icon can be changed by using your own image file.</p></div>
+<div class="section1" id="ESRI_SECTION1_DDBD4D2E6A354DBC868DA37BD0C9DE6F" purpose="section1"><h2>Setting the Basemap Gallery widget</h2></div><div class="wfsteps" purpose="wfsteps"><h4></h4><div class="steps" id="GUID-CCB64297-6506-46F5-9010-7AE4DB1ED980"><div class="step_title">Steps:</div><ol>
+<li purpose="step" id="ESRI_STEP_97DA5F894B744867B452AAE4FC97E19F"><span purpose="cmd" id="GUID-E4A9A8B7-3F3C-4741-B8DC-DB36E29D555C">Hover the mouse over the Basemap Gallery widget and click the small edit icon
+<img purpose="img" placement="inline" alt="edit icon" title="edit icon" src="03w3/GUID-31D329BD-BC73-4BBE-AE1D-3A1261BF912A-web.png">.</span><div class="stepresult" purpose="stepresult"><p id="GUID-9657CBF5-2983-49C8-A4A7-9BA34D300933">This opens the configuration window for this widget.</p><img purpose="img" placement="inline" alt="Basemap configuration" title="Basemap configuration" src="03w3/GUID-DA5C044D-D272-4EAB-A929-86A71C7F3B03-web.png"></div></li><li purpose="step" id="ESRI_STEP_9ED29A8ED49B43C286C401019EDB417A"><span purpose="cmd" id="GUID-A5CBD998-A8B8-4A84-A079-05B5B5A0F3B0">Optionally, click <span class="uicontrol">change widget icon</span> if you want to replace the default icon for this widget. </span><div class="info" purpose="info"><p id="GUID-1EEF34F1-3917-448D-88ED-DC85AFC6D5C3">A file explorer window opens allowing you to browse to a  local image file to use as the widget icon.</p></div></li><li purpose="step" id="ESRI_STEP_AC9E69FEDBF046D18D887D4737A906C8"><span purpose="cmd" id="GUID-0264ABDC-4A3F-4C5C-BBDE-3CE04C2FEACE">Check or uncheck the <span class="uicontrol">Show Portal Basemaps</span> option.</span><div class="info" purpose="info"><p id="GUID-F5094127-63AD-4EF1-9496-F7DC99CE39DE">When this option is checked, portal basemaps display in the gallery. You can still add your custom basemaps to the gallery but they need to be in the same projection as the portal basemaps.</p></div></li><li purpose="step" id="ESRI_STEP_CD61F954D8B446F8BC6D0885E2D451A9"><span purpose="cmd" id="GUID-D42ED491-DE9E-42AF-9490-6C7205A36D41">Click <span class="uicontrol">Click to add a new basemap</span>.</span><div class="stepresult" purpose="stepresult"><p id="GUID-F32200C4-3A92-49C7-85F6-15EFB853D7B6">The Add Basemap window displays.</p></div></li>
+<li purpose="step" id="ESRI_STEP_B024009938644741BDAF098B9443476B"><span purpose="cmd" id="GUID-7FB356E4-A02C-4F6D-A615-82780E4233AA">Provide a title, the URL of your map service, and click the thumbnail image to replace it with your own image file. </span></li><li purpose="step" id="ESRI_STEP_C7991324A6B44F4C868187531040A7D3"><span purpose="cmd" id="GUID-ADBF7038-E354-48C0-B4A4-4177DAB4BC14">Click  <span class="uicontrol">Add Basemap</span> to add additional URL of a map service to the basemap .</span><div class="info" purpose="info"><p id="GUID-288D2397-DB46-413F-AF5B-FD7A1C613A76">A single basemap can contain multiple maps, but they need to be in a same projection. </p></div></li><li purpose="step" id="ESRI_STEP_7B6F4047CE824D82A0A16562483255B2"><span purpose="cmd" id="GUID-0843B5F1-9715-4291-8CF5-FAC68FBD5CBE">Click <span class="uicontrol">OK</span> to close this window.</span><div class="stepresult" purpose="stepresult"><p id="GUID-3A9B3C71-CBBA-47BA-B271-5C4A052EAFA6">You basemap is added to the list of basemaps with the selected thumbnail.</p></div></li></ol></div></div>
+<div class="section1" id="ESRI_SECTION1_10275307C5DF45D986A6922A5BBBE67B" purpose="section1"><h2>Using the Basemap Gallery widget</h2><p id="GUID-46DAF4E8-D1CC-4D6B-8737-44AD8B24F41D"> Clicking the Basemap Gallery widget displays all the basemaps configured for this widget. Clicking one of the basemap thumbnails sets it as the active basemap for the application. Click the <span class="uicontrol">X</span> button in the upper right corner of the Basemap Gallery window to close it.  When ArcGIS basemaps are in the gallery, selecting other basemaps whose projection is different from Web Mercator sets the basemap to blank.<div class="image" purpose="image"><table><tr><td><img class="break" src="03w3/GUID-5A0B58D4-5144-4A0E-964A-7B58680FC36D-web.png" purpose="img" alt="Basemap Gallery result" title="Basemap Gallery result"></td></tr></table></div></p></div><div class="wfsummary" id="GUID-2AAAF252-7642-4C1F-8785-AFC3638D89E9" purpose="wfsummary">
+<p id="GUID-C863B165-5749-45F6-B06F-717D3C053902">
+
+</p>
+</div>
+<div class="footer"> Copyright © 1995-2014 Esri. All rights reserved. </div></div></body></html>
