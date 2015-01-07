@@ -13,7 +13,7 @@ We encourage collaborators (regions/START contractors) to fork EPA's repository 
 ####Private versus Public Repositories:
 In the WAB context, we expect that the full, complete, master repository may include sensitive or proprietary code in the form of widgets.  A second, public version of the application that excludes these modules is maintained by using the Public WAB branch of the private repository, and then synchronizing that public branch with an actual public repository (https://github.com/USEPA/Public_Web_AppBuilder).  This reconciliation/synchronization process must be performed by a full administrator.  See figure below.
 
-![figure 1](https://github.com/USEPA/EPA_Esri_Web_AppBuilder/blob/master/docs/EPA_WAB_Repository_Structure.jpg)
+![figure 1](https://github.com/USEPA/EPA_Esri_Web_AppBuilder/blob/master/docs/EPA_WAB_Repository_Structure.png)
 
 ####Submitting to the Public Repository:
 In order to submit changes/Widgets to the [Public Repository](https://github.com/USEPA/EPA_Public_Esri_Web_AppBuilder) follow the guidance steps below. The Public repository consists of one master branch. Changes and addition should be committed to this branch. 
