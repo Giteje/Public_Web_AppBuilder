@@ -2,8 +2,8 @@
 =========
 ####Governance
 A full guidance document describing the Web Application Builder Oversight Team (WABOT), GitHub roles and responsibilities, the collaborator account request process, and workflows for the private version of this repository is available on the EPA SharePoint site here:
-(https://usepa.sharepoint.com/sites/oei/GISWORKGROUP/Developer)
-EPA SharePoint Login Required.  
+https://usepa.sharepoint.com/sites/oei/GISWORKGROUP/Developer
+(EPA SharePoint login is required.)  
 
 ####Developer’s workflow:
 
