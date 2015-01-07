@@ -1,3 +1,0 @@
-﻿define({
-    showLegend: "Näytä selite"
-});

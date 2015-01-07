@@ -1,4 +1,0 @@
-//>>built
-require({cache:{"url:builder/config/templates/WidgetConfig.html":'\x3cdiv class\x3d"widget-config"\x3e\r\n  \x3cdiv class\x3d"pane app-widgets" data-dojo-attach-point\x3d"appWidgetsPageNode"\x3e\r\n  \x3c/div\x3e\r\n\x3c/div\x3e'}});
-define("dojo/_base/declare dojo/_base/lang dijit/_WidgetBase dijit/_TemplatedMixin dojo/text!./templates/WidgetConfig.html ./AppWidgetsPage".split(" "),function(b,a,c,d,e,f){return b([c,d],{templateString:e,postMixInProperties:function(){this.nls=a.mixin({},builderNls.common);this.nls=a.mixin(this.nls,builderNls.widgets)},postCreate:function(){this.inherited(arguments);this.appWidgetsPage=new f({},this.appWidgetsPageNode)},startup:function(){this.inherited(arguments);this.appWidgetsPage.startup()},
-destroy:function(){this.appWidgetsPage.destroy();this.appWidgetsPage=null;this.inherited(arguments)},setAppConfig:function(a){this.appConfig=a;this.appWidgetsPage&&this.appWidgetsPage.setAppConfig(a)}})});

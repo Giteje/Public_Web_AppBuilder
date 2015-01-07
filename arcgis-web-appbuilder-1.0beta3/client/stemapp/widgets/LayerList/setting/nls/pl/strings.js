@@ -1,3 +1,0 @@
-﻿define({
-    showLegend: "Pokaż legendę"
-});

@@ -1,3 +1,0 @@
-﻿define({
-    showLegend: "Visa förklaring"
-});
