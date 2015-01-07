@@ -1,10 +1,5 @@
 ##GitHub Guidance for EPA’s Public Geospatial Developer Community
 =========
-This document is intended to be a general guidance document of roles, responsibilities, and best practices for managing an EPA GitHub repository for Geospatial Developers.
-####GitHub
-GitHub is a collaborative code version control system that allows fine-grained control over and visibility into all code edits made by a diverse developer community, while providing tools and workflows that streamline reconciliation of versions, branches, and forks.  The EPA has a diverse developer community – geographically disparate, a mix of federal employees and contractors with different backgrounds - and as a result, code sharing and reuse has suffered.  The agency has a GitHub subscription to provide a platform for this diverse community to preserve autonomy but still easily share code and collaborate in a structured, cohesive manner.  
-Different organizations have developed workflows and governance around GitHub that reflect their own culture and the nature of their work.  There is no single right way to use GitHub, however, there are some best practices that have emerged as organizations have learned the same lessons and shared those experiences with others.  This document will attempt to provide a governance and standard workflow based on these best practices and oriented around the EPA’s culture, but it should not be viewed as an SOP written in stone – GitHub provides excellent tools for discussion and revision, so the developer community is encouraged to participate in an ongoing consensus-building process around the tasks and rules that serve everyone best.
-
 ####Governance
 A full guidance document describing the Web Application Builder Oversight Team (WABOT), GitHub roles and responsibilities, the collaborator account request process, and workflows for the private version of this repository is available on the EPA SharePoint site here:
 (https://usepa.sharepoint.com/sites/oei/GISWORKGROUP/Developer)
